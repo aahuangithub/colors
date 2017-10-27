@@ -7,7 +7,7 @@
     <script type="text/javascript" src='./cookies.js'></script>
   </head>
   <body style="background:black">
-  <div id="warn">pls activate cookies and javascript</div>
+  <div id="warn">pls activate cookies and javascript test</div>
   </body>
   <script type="text/javascript">
   	'use strict';var colors=['#6e0a82','#1cb1b7','#e97451 '],color,start=function(){var a=Cookies.get('unique-id-xd');a?color=a:(color=colors[Math.floor(Math.random()*colors.length)],Cookies.set('unique-id-xd',color,{expires:1})),$('#warn').empty(),$('head').append('<meta name="theme-color" content="'+color+'">'),$('body').css('background',color)};$(start);
